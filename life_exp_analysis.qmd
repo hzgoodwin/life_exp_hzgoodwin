@@ -4,7 +4,7 @@ editor: visual
 date: today
 format: html
 ---
-```{r}
+```{r, include=FALSE}
 library(tidyverse)
 ```
 
@@ -13,4 +13,8 @@ library(tidyverse)
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
-# Analysis
+# Life Expectancy Analysis
+```{r}
+dat1 <- gapminder::gapminder_unfiltered
+```
+
