@@ -4,17 +4,19 @@ editor: visual
 date: today
 format: html
 ---
+
 ```{r, include=FALSE}
 library(tidyverse)
 ```
-
 
 # Abstract
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
 # Life Expectancy Analysis
+
 ```{r}
 dat1 <- gapminder::gapminder_unfiltered
 ```
 
+small change
